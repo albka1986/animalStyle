@@ -41,11 +41,11 @@ header nav ul {
 	text-align: center;
 }
 nav ul li {
-	float: left;
+	display: inline-block;
 	color: #045184;
-	font-size: 14px;
+	font-size: 20px;
+	margin-right: 35px;
 	text-align: center;
-	margin-right: 25px;
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
