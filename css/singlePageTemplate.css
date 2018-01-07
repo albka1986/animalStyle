@@ -24,9 +24,7 @@ header {
 	height: 5%;
 	background-color: #ffffff;
 	border-bottom: 3px solid #CAC5C5;
-	
 }
-
 nav {
 	float: none;
 	width: 100%;
@@ -35,7 +33,6 @@ nav {
 	align-content: center;
 }
 header nav ul {
-
 	list-style: none;
 	float: none;
 	text-align: center;
@@ -480,17 +477,9 @@ nav ul li {
 	color: #888888;
 	font-size: 48px;
 	font-family: sans-serif;
-	padding-bottom: 15px;
-	
-/*	width: 116px;*/
-/*	border-bottom-width: 10px;*/
-/*	border-width: 15px;*/
-/*	 border-bottom: 10px solid rgba(237, 205, 31, 1);*/
-	
-	
-	
-  
-	
-	  
-  
+}
+.container #gallery div.line {
+	margin: auto;
+	width: 120px;
+	border-bottom: 10px solid rgba(237, 205, 31, 1);
 }
