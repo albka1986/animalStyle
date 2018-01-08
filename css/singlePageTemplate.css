@@ -20,6 +20,28 @@ body {
 	background-color: #FFFFFF;
 }
 /* Navigation */
+.phone-number {
+	padding-right: 20px;
+	text-align: right;
+	word-spacing: 1.0em;
+	font-size: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.phone-number a span {
+	color: #045184;
+	word-spacing: 1.0em;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+}
+.phone-number a {
+	text-decoration: none;
+}
+.phone-number a :hover {
+	color: #008AE6;
+}
 header {
 	position: fixed; /* Фиксированное положение */
 	top: 0%; /* Расстояние сверху */
@@ -46,7 +68,7 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-/*	display: inline-block;*/
+	/*	display: inline-block;*/
 	color: #045184;
 	font-size: 20px;
 	margin-right: 35px;
@@ -490,14 +512,6 @@ nav ul li {
 	margin: auto;
 	width: 120px;
 	border-bottom: 10px solid rgba(237, 205, 31, 1);
-}
-.phone-number {
-	text-align: right;
-	word-spacing: 1.0em;
-	font-size: 25px;
-	color: #5B86B0;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-decoration: underline;
 }
 div.services {
 	display: inline-block;
