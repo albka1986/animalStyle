@@ -45,7 +45,8 @@ header nav ul {
 	text-align: center;
 }
 nav ul li {
-	display: inline-block;
+	float: left;
+/*	display: inline-block;*/
 	color: #045184;
 	font-size: 20px;
 	margin-right: 35px;
@@ -491,6 +492,8 @@ nav ul li {
 	border-bottom: 10px solid rgba(237, 205, 31, 1);
 }
 .phone-number {
+	text-align: right;
+	word-spacing: 1.0em;
 	font-size: 25px;
 	color: #5B86B0;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -528,4 +531,21 @@ div.desc_extra {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+}
+.table {
+	width: 50%;
+	font-size: 20px;
+}
+.table thead {
+	background-color: #FF55E1;
+}
+.table tbody th, td {
+	border-bottom: 0.5px solid #FFB0F1;
+}
+.table tfoot td {
+	padding-top: 30px;
+	border-bottom: none;
+}
+.table tbody th {
+	padding-top: 30px;
 }
