@@ -12,18 +12,25 @@ body {
 }
 /* Container */
 .container {
+	margin-top: 4%;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1000px;
+	height: auto;
 	background-color: #FFFFFF;
 }
 /* Navigation */
 header {
-	width: 100%;
-	height: 5%;
+	position: fixed; /* Фиксированное положение */
+	top: 0%; /* Расстояние сверху */
+	padding-bottom: 10px; /* Поля вокруг текста */
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 7%;
 	background-color: #ffffff;
 	border-bottom: 3px solid #CAC5C5;
+	vertical-align: center;
 }
 nav {
 	float: none;
