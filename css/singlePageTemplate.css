@@ -472,13 +472,13 @@ nav ul li {
 }
 .subtitle {
 }
-.container #gallery div .font_2.subtitle {
+.container div .font_2.subtitle {
 	text-align: center;
 	color: #888888;
 	font-size: 48px;
 	font-family: sans-serif;
 }
-.container #gallery div.line {
+.container div.line {
 	margin: auto;
 	width: 120px;
 	border-bottom: 10px solid rgba(237, 205, 31, 1);
@@ -488,4 +488,37 @@ nav ul li {
 	color: #5B86B0;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-decoration: underline;
+}
+div.services {
+	display: inline-block;
+	margin-left: 35px;
+	padding-bottom: 50px;
+}
+div.services img {
+	width: 200px;
+	height: 200px;
+}
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+div.services img:hover {
+	border: 1px solid #777;
+}
+div.services_extra {
+	display: inline-block;
+	margin-left: 75px;
+	vertical-align: top;
+	padding-bottom: 50px;
+}
+div.services_extra img {
+	width: 100px;
+	height: 100px;
+}
+div.desc_extra {
+	padding: 15px;
+	color: #4E4E4E;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
 }
