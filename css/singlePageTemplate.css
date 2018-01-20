@@ -568,6 +568,7 @@ div.desc_extra {
 	padding-top: 30px;
 }
 .banner_custom {
+	column-count: 2;
 	margin-top: 100px;
 	width: 100%;
 	height: 600px;
