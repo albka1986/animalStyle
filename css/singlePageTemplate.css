@@ -569,6 +569,7 @@ div.desc_extra {
 	padding-top: 30px;
 }
 .banner_custom {
+	color: aliceblue;
 	margin-top: 100px;
 	width: 100%;
 	height: 600px;
@@ -578,8 +579,7 @@ div.desc_extra {
 	font-size: 40px;
 }
 .banner_custom_title {
-	color: aliceblue;
 	font-size: 123px;
 	align-content: center;
-padding-top:  30px";
+	padding-top: 30px;
 }
