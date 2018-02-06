@@ -575,14 +575,15 @@ div.desc_extra {
 }
 .banner_custom {
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	background-image: url('../images/background.png');
 	background-repeat: repeat-x;
 	background-size: cover;
 	font-size: 40px;
 	position: relative;
 	padding-top: 40px;
-	margin-top: 60px;
+	margin-top: 40px;
+	margin-bottom: 140px;
 }
 .banner_custom_title {
 	font-size: 123px;
@@ -590,15 +591,13 @@ div.desc_extra {
 	font-style: italic;
 	align-content: center;
 	color: aliceblue;
-
-padding-top:  30px;
 }
 .banner_custom_title_2 {
 	font-size: 80px;
 	font-style: italic;
 	margin-top: 100px;
 	color: aliceblue;
-	padding-top: 50px;
+	padding-top: 20px;
 	text-align: center;
 
 }
