@@ -581,28 +581,35 @@ div.desc_extra {
 	background-size: cover;
 	font-size: 40px;
 	position: relative;
+	padding-top: 40px;
 	margin-top: 60px;
 }
 .banner_custom_title {
 	font-size: 123px;
+	font-family: 'Monotype Corsiva';
+	font-style: italic;
 	align-content: center;
+	color: aliceblue;
 
 padding-top:  30px;
 }
 .banner_custom_title_2 {
 	font-size: 80px;
+	font-style: italic;
 	margin-top: 100px;
 	color: aliceblue;
+	padding-top: 50px;
 	text-align: center;
 
 }
 .poem{
 	list-style-type: none;
-    font-size: 30px;
+    font-size: 20px;
     color: aliceblue;
+	font-style: italic;
     text-align: left;
     position: absolute;
-    right: 390px;
+    right: 290px;
 }
 ul.poem li:nth-child(3){
 	margin-left:85px;
