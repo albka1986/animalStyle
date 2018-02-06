@@ -10,9 +10,13 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+/* Header */
+#header{
+	background: #ffffff;
+    height: 20px;
+}
 /* Container */
 .container {
-	margin-top: 4%;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,8 +56,9 @@ header {
 	margin-right: auto;
 	height: 7%;
 	background-color: #ffffff;
-	border-bottom: 3px solid #CAC5C5;
 	vertical-align: center;
+	box-shadow: 0 2px 9px 0 #bdbdbd;
+	z-index: 300;
 }
 nav {
 	float: none;
@@ -569,17 +574,41 @@ div.desc_extra {
 	padding-top: 30px;
 }
 .banner_custom {
-	color: aliceblue;
-	margin-top: 100px;
 	width: 100%;
 	height: 600px;
 	background-image: url('../images/background.png');
 	background-repeat: repeat-x;
 	background-size: cover;
 	font-size: 40px;
+	position: relative;
+	margin-top: 60px;
 }
 .banner_custom_title {
 	font-size: 123px;
 	align-content: center;
-	padding-top: 30px;
+
+padding-top:  30px;
+}
+.banner_custom_title_2 {
+	font-size: 80px;
+	margin-top: 100px;
+	color: aliceblue;
+	text-align: center;
+
+}
+.poem{
+	list-style-type: none;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: left;
+    position: absolute;
+    right: 390px;
+}
+ul.poem li:nth-child(3){
+	margin-left:85px;
+}
+.dog-img{
+	position: absolute;
+    right: 60px;
+    top: 140px;
 }
