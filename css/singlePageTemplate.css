@@ -11,9 +11,9 @@ body {
 	font-weight: 200;
 }
 /* Header */
-#header{
+#header {
 	background: #ffffff;
-    height: 20px;
+	height: 20px;
 }
 /* Container */
 .container {
@@ -586,11 +586,12 @@ div.desc_extra {
 	margin-bottom: 140px;
 }
 .banner_custom_title {
+	text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
 	font-size: 123px;
-	font-family: 'Monotype Corsiva';
-	font-style: italic;
+	font-weight: bold;
+	font-family: 'marck script', cursive;
 	align-content: center;
-	color: aliceblue;
+	color: #FFFFFF;
 }
 .banner_custom_title_2 {
 	font-size: 80px;
@@ -599,22 +600,21 @@ div.desc_extra {
 	color: aliceblue;
 	padding-top: 20px;
 	text-align: center;
-
 }
-.poem{
+.poem {
 	list-style-type: none;
-    font-size: 20px;
-    color: aliceblue;
+	font-size: 20px;
+	color: aliceblue;
 	font-style: italic;
-    text-align: left;
-    position: absolute;
-    right: 290px;
-}
-ul.poem li:nth-child(3){
-	margin-left:85px;
-}
-.dog-img{
+	text-align: left;
 	position: absolute;
-    right: 60px;
-    top: 140px;
+	right: 290px;
+}
+ul.poem li:nth-child(3) {
+	margin-left: 85px;
+}
+.dog-img {
+	position: absolute;
+	right: 60px;
+	top: 140px;
 }
