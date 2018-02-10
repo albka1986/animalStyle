@@ -14,6 +14,18 @@
 <script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
 </head>
 <body>
+
+<!--Facevoob JavaScript-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=187557108677599&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+<!--Facevoob JavaScript--> 
+
 <!-- Main Container -->
 <div id="container" class="container"> 
   <!-- Navigation -->
@@ -39,7 +51,7 @@
       <li>из пса - тигрёнка.</li>
       <li>Ваш грумер =)</li>
     </ul>
-    <img class="dog-img" src="./images/anymalStyleLogo.png"> </div>
+    <img class="dog-img" alt="AnimalStyle" src="./images/anymalStyleLogo.png"> </div>
   
   <!-- Main Baner --> 
   <!--  <section > <span style="font-style: normal"> <img src="images/background.png" width="100%" height="510px" alt=""/></span> </section>--> 
@@ -221,19 +233,22 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1039.5080208485085!2d36.33944073636061!3d50.025078916736746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a762c8206721%3A0x486c7c9fa9a7661a!2sAkademika+Pavlova+St%2C+152%2C+Kharkiv%2C+Kharkiv+Oblast%2C+61000!5e0!3m2!1sen!2sua!4v1517957169386" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     </center>
   </section>
-
-<section id="partners">
+  <section id="partners">
     <div>
       <h1 class="font_2 subtitle">Партнеры</h1>
     </div>
-	<a href="http://animals.kharkov.ua" target="_blank">
-		<img border="0" alt="Центр обращения с животными" src="images/partner_1.png">
-	</a>
-	
-
-    
-   
+    <a href="http://animals.kharkov.ua" target="_blank"> <img border="0" alt="Центр обращения с животными" src="images/partner_1.png"> </a> </section>
+  
+  <!--Feedback Selection-->
+  <section id="feedback">
+    <div style="margin-top: 100px">
+      <h1 class="font_2 subtitle">Отзывы</h1>
+    </div>
+    <!--Facebook Comments Plugin-->
+    <div class="fb-comments" data-href="https://www.facebook.com/AniMalStyle.atelie/" data-width="100%" data-numposts="5"></div>
+    <!--Facebook Comments Plugin--> 
   </section>
+  <!--Feedback Selection--> 
   
   <!-- Footer Section -->
   <footer> </footer>
