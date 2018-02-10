@@ -520,6 +520,7 @@ nav ul li {
 	/*	border-bottom: 10px solid rgba(237, 205, 31, 1);*/
 	border-bottom: 4px solid rgba(62,127,255,0.88);
 	border-radius: 3px;
+	margin-bottom: 20px;
 }
 div.services {
 	display: inline-block;
