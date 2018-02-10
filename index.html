@@ -20,7 +20,25 @@
 </head>
 <body>
 
-<!--	Script for scrolling to top--> 
+
+
+<!--Facebook JavaScript-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=187557108677599&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+<!--Facebook JavaScript--> 
+
+
+
+<!--Button Scroll to Top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow_up.png" alt="Move Up"></button>
+<!--Button Scroll to Top--> 
+	<!--	Script for scrolling to top--> 
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -40,22 +58,7 @@ function topFunction() {
 }
 </script> 
 <!--	Script for scrolling to top--> 
-
-<!--Facebook JavaScript-->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=187557108677599&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> 
-<!--Facebook JavaScript--> 
-
-<!--Button Scroll to Top-->
-<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow_up.png" alt="Move Up"></button>
-<!--Button Scroll to Top--> 
-
+	
 <!-- Main Container -->
 <div id="container" class="container"> 
   <!-- Navigation -->
