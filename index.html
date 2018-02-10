@@ -14,8 +14,32 @@
 <script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<style>
+
+</style>
 </head>
 <body>
+
+<!--	Script for scrolling to top--> 
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script> 
+<!--	Script for scrolling to top--> 
 
 <!--Facevoob JavaScript-->
 <div id="fb-root"></div>
@@ -27,6 +51,10 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script> 
 <!--Facevoob JavaScript--> 
+
+<!--Button Scroll to Top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--Button Scroll to Top--> 
 
 <!-- Main Container -->
 <div id="container" class="container"> 
