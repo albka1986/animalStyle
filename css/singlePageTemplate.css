@@ -396,7 +396,7 @@ nav ul li {
 	height: 100%;
 	float: none;
 	overflow: auto;
-	display: inline-block;
+/*	display: inline-block;*/
 	background: #52bad5;
 }
 header nav ul {
