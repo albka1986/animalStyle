@@ -307,6 +307,7 @@ footer {
 	width: 100%;
 	float: none;
 	display: none;
+	line-height: 200%;
 }
 header nav ul {
 }
@@ -655,17 +656,23 @@ ul.poem li:nth-child(3) {
 	height: 100%;
 }
 .dog-img {
-	width: 50px;
+	position: relative;
+	width: 60px;
 	right: 0px;
 	top: 5px;
 }
 .banner_custom {
 	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
 }
 .banner_custom_title {
 	text-align: center;
 	margin-left: 20px;
 	font-size: 80px;
+}
+.banner_custom_title_2 {
+	margin-top: 50px;
 }
 .poem {
 	display: none;
@@ -680,8 +687,14 @@ ul.poem li:nth-child(3) {
 .table {
 	width: 100%;
 }
-.map iframe{
+.map iframe {
 	width: 90%;
 	height: 400px;
+}
+.phone-number {
+	display: none;
+}
+#header header ul li a {
+	line-height: 300%;
 }
 }
