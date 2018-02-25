@@ -544,7 +544,7 @@ div.services img:hover {
 }
 div.services_extra {
 	display: inline-block;
-	margin-left: 75px;
+	/*	margin-left: 75px;*/
 	vertical-align: top;
 	padding-bottom: 50px;
 }
@@ -669,5 +669,19 @@ ul.poem li:nth-child(3) {
 }
 .poem {
 	display: none;
+}
+.gallery_class img {
+	width: 300px;
+	height: 300px;
+}
+.container div .font_2.subtitle {
+	font-size: 40px;
+}
+.table {
+	width: 100%;
+}
+.map iframe{
+	width: 90%;
+	height: 400px;
 }
 }

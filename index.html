@@ -93,9 +93,11 @@ function topFunction() {
     <div class="line"></div>
     <br>
     <center>
-      <p> <img src="images/1.jpg" width="500px" height="500px" alt=""/> </p>
-      <p> <img src="images/2.jpg" width="500px" height="500px" alt=""/> </p>
-      <p> <img src="images/3.jpg" width="500px" height="500px" alt=""/> </p>
+      <div class="gallery_class">
+        <p> <img src="images/1.jpg" width="500px" height="500px" alt=""/> </p>
+        <p> <img src="images/2.jpg" width="500px" height="500px" alt=""/> </p>
+        <p> <img src="images/3.jpg" width="500px" height="500px" alt=""/> </p>
+      </div>
     </center>
   </section>
   <br>
@@ -260,45 +262,11 @@ function topFunction() {
       <p style="font-size: 25px;"> <b>Телефоны:</b> </p>
       <p style="font-size: 25px;">life: 093-833-19-55</p>
       <p style="font-size: 25px;">mts:  099-327-37-13 </p>
+		<div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1039.5080208485085!2d36.33944073636061!3d50.025078916736746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a762c8206721%3A0x486c7c9fa9a7661a!2sAkademika+Pavlova+St%2C+152%2C+Kharkiv%2C+Kharkiv+Oblast%2C+61000!5e0!3m2!1sen!2sua!4v1517957169386" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
     </center>
   </section>
-  
-  <!-- Order Section -->
-  <section id="order">
-    <div>
-      <h1 class="font_2 subtitle">Оставить заявку</h1>
-    </div>
-    <div class="line"></div>
-    <input type="text" name="fio" placeholder="Имя" required>
-    <input type="text" name="tel" placeholder="Телефон" required>
-    <div id="form_result"></div>
-    <input type="submit" value="Заказать звонок">
-    <script type="text/javascript" src="bootstrap.min.js"></script> 
-    <script>
-$("#submit").click(function() { 
-var name = $('input[name=name]').val(); 
-var tel = $('input[name=tel]').val();
-var otpravka = true;
-if(name==""){ 
-otpravka = false;
-}
-if(tel==""){ 
-otpravka = false;
-}
-if(otpravka) 
-{
-
-dannie = {'polz_name':name, 'polz_tel':tel};
-$.post('senda.php', dannie, function(otvet){ 
-rezultat = '<div style="color:#D80018;">'+otvet.text+'</div>';
-$("#form_result").hide().html(rezultat).slideDown();
-}, 'json'); 
-}
-});
-</script> 
-  </section>
-  <!-- Order Section -->
   
   <section id="partners">
     <div>
