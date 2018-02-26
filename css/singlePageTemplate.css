@@ -17,7 +17,7 @@ body {
 }
 /* Container */
 .container {
-	width: 90%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
@@ -51,7 +51,7 @@ header {
 	position: fixed; /* Фиксированное положение */
 	top: 0%; /* Расстояние сверху */
 	padding-bottom: 10px; /* Поля вокруг текста */
-	width: 90%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 7%;
@@ -290,7 +290,11 @@ footer {
 }
 
 /* Small Desktops */
-@media (min-width: 600px) and (max-width: 1096px) {
+@media (min-width: 841px) and (max-width: 1096px) {
+
+	.phone-number {
+	display: none;
+}
 .text_column {
 	width: 100%;
 }
@@ -769,10 +773,18 @@ div.services {
 .dog-img {
 	position: relative;
 	top: 50px;
-	width: 80px;
+	width: 120px;
 	right: 0px;
 }
 .banner_custom_title_2 {
 	margin-top: 10px;
 }
+
 }
+
+@media (min-width: 1097px) and (max-width: 1300px){
+	.phone-number a span img{
+		display: none;
+	}
+}
+

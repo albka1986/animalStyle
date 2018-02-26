@@ -1,4 +1,4 @@
-var mobileWidth = 767;
+var mobileWidth = 840;
 var hamburgerBtn = document.getElementById("hamburger-btn");
 var header = document.getElementById("header");
 
@@ -34,7 +34,12 @@ function showMenu() {
 }
 
 hamburgerBtn.onclick = showMenu;
-header.onclick = function(){
-		"use strict";
+header.onclick = function () {
+	"use strict";
+	if (window.innerWidth > mobileWidth) {
+
+	} else {
 		header.style.display = "none";
+
+	}
 };
