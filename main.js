@@ -1,4 +1,4 @@
-var mobileWidth = 840;
+var mobileWidth = 1096;
 var hamburgerBtn = document.getElementById("hamburger-btn");
 var header = document.getElementById("header");
 
