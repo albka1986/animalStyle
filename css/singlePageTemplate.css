@@ -32,6 +32,14 @@ body {
 	font-size: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
+.parnter_block {
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+.parnter_block a {
+	margin-left: 50px;
+}
 .phone-number a span {
 	color: #045184;
 	word-spacing: 1.0em;
@@ -288,7 +296,6 @@ footer {
 .hidden {
 	display: none;
 }
-
 /* Small Desktops */
 /*@media (min-width: 841px) and (max-width: 1096px) {
 
@@ -779,12 +786,10 @@ div.services {
 .banner_custom_title_2 {
 	margin-top: 10px;
 }
-
 }
 
-@media (min-width: 1097px) and (max-width: 1300px){
-	.phone-number a span img{
-		display: none;
-	}
+@media (min-width: 1097px) and (max-width: 1300px) {
+.phone-number a span img {
+	display: none;
 }
-
+}
