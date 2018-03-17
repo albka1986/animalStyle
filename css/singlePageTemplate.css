@@ -32,14 +32,12 @@ body {
 	font-size: 20px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
-.parnter_block {
+.partner_block {
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
 }
-.parnter_block a {
-	margin-left: 50px;
-}
+
 .phone-number a span {
 	color: #045184;
 	word-spacing: 1.0em;
