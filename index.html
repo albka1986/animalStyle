@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 
@@ -82,7 +82,7 @@ function topFunction() {
           <li> <a href="#service">Услуги</a></li>
           <li> <a href="#price">Цены</a></li>
           <li> <a href="#contact">Контакты</a></li>
-          <div class="phone-number"> <a href="tel:0938331955" data-content="+380938331955" data-type="phone"><span><img src="images/lifecell.png" height="25px" width="25px" alt=""/> 093-833-19-55</span></a> <a href="tel:0993273713" data-content="+380993273713" data-type="phone"><span><img src="images/vodafone.png" height="25px" width="25px" alt=""/> 099-327-37-13</span></a> </div>
+          <div class="phone-number"> <a href="tel:0938331955" data-content="+380938331955" data-type="phone"> <img src="images/life_viber_merged.png" height="30px" width="auto" alt="life"/> 093-833-19-55</a> <a href="tel:0993273713" data-content="+380993273713" data-type="phone"><img src="images/vodafone_full.png" height="30px" width="auto" alt="vodafone"/> 099-327-37-13</a> </div>
         </ul>
       </nav>
     </header>
@@ -166,11 +166,11 @@ function topFunction() {
       <div class="desc">Не можете приехать к нам?<br>
         Мы приедем к Вам!</div>
     </div>
-    <div class="services_extra"> <img src="images/hotel.png" alt="Передержка">
+    <!-- <div class="services_extra"> <img src="images/hotel.png" alt="Передержка">
       <div class="desc_extra">Передержка</div>
       <div class="desc">Планируете отдых, ремонт или переезд? <br>
         Питомец поживёт у нас.</div>
-    </div>
+    </div>-->
   </center>
   
   <!-- Price Section -->
@@ -284,6 +284,33 @@ function topFunction() {
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1039.5080208485085!2d36.33944073636061!3d50.025078916736746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a762c8206721%3A0x486c7c9fa9a7661a!2sAkademika+Pavlova+St%2C+152%2C+Kharkiv%2C+Kharkiv+Oblast%2C+61000!5e0!3m2!1sen!2sua!4v1517957169386" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
+      
+      <!--		Feedaback Form-->
+      <div class="feedback">
+        <p style="font-size: 34px"> Оставить заявку</p>
+        <form name="contactform" method="post" action="send_form_email.php">
+          <table width="700px">
+            <tr>
+              <td class="feedback_form_td" valign="top"><label  style="font-size: 24px; font-family: arizonia" for="first_name">Имя *</label></td>
+              <td class="feedback_form_td" valign="top"><input  style="font-size: 24px; font-family: arizonia" type="text" name="first_name" maxlength="50" size="30" required="true"></td>
+            </tr>
+            <tr>
+              <td  class="feedback_form_td" valign="top"><label  style="font-size: 24px; font-family: arizonia"  for="telephone">Телефон *</label></td>
+              <td  class="feedback_form_td" valign="top"><input style="font-size: 24px; font-family: arizonia"  type="text" name="telephone" maxlength="30" size="30"  required="true"></td>
+            </tr>
+            <tr>
+              <td class="feedback_form_td"  valign="top"><label style="font-size: 24px; font-family: arizonia"   for="comments">Комментарий *</label></td>
+              <td class="feedback_form_td" valign="top"><textarea  style="font-size: 24px; font-family: arizonia" name="comments" maxlength="1000" cols="25" rows="6" required="true"></textarea></td>
+            </tr>
+            <tr>
+              <td class="feedback_form_td" colspan="2" style="text-align:center"><input type="submit" value="Отправить"></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      
+      <!--		Feedaback Form-->
+      
     </center>
   </section>
   
@@ -293,11 +320,9 @@ function topFunction() {
       <h1 class="font_2 subtitle">Партнеры</h1>
     </div>
     <div class="line"></div>
-    
-   <center>
+    <center>
       <a href="https://www.facebook.com/polyashenko.p" style="text-decoration: none;" target="_blank"><img border="0" alt="Петр Полященко - дрессировка собак" src="images/partner_1.png" ></a>
     </center>
-	
   </section>
   <!--Partners  --> 
   
