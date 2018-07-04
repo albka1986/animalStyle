@@ -607,6 +607,9 @@ div.services {
 }
 
 @media (min-width:501px) and (max-width: 1096px) {
+		.feedback {
+	display: none;
+}
 .no_partner {
 	width: 150px;
 }
@@ -777,6 +780,9 @@ div.services {
 .phone-number a span img {
 	display: none;
 }
+	.feedback {
+	display: none;
+}
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -810,4 +816,5 @@ input[type=submit]:hover {
 }
 .feedback {
 	margin-top: 60px;
+	display: none;
 }
