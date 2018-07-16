@@ -67,6 +67,24 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+$(document).ready(function() {
+    $("#myForm").on('submit', function(event) {
+        event.preventDefault(); 
+        var formData = $(this).serialize();
+        $.ajax({
+            type: 'POST',
+            url: 'sendmail.php',
+            dataType: "json",
+            data: formData,
+            success: function(response) { 
+                alert(response.success); 
+            },
+            error: function(xhr, status, error){
+                console.log(xhr); 
+            }
+        });
+    });
+});
 </script> 
 <!--	Script for scrolling to top--> 
 
@@ -287,20 +305,20 @@ function topFunction() {
       
       <!--		Feedaback Form-->
       <div class="feedback">
-        <p style="font-size: 34px; display: none"> Оставить заявку</p>
-        <form name="contactform" method="post" action="send_form_email.php" style="display: none">
+        <p style="font-size: 34px;"> Оставить заявку</p>
+        <form name="contactform" method="post" action="send_form_email.php" >
           <table width="700px">
             <tr>
-              <td class="feedback_form_td" valign="top"><label  style="font-size: 24px; font-family: arizonia" for="first_name">Имя *</label></td>
-              <td class="feedback_form_td" valign="top"><input  style="font-size: 24px; font-family: arizonia" type="text" name="first_name" maxlength="50" size="30" required="true"></td>
+              <td class="feedback_form_td" valign="top"><label  style="font-size: 24px; font-family: arizonia" for="name">Имя *</label></td>
+              <td class="feedback_form_td" valign="top"><input  style="font-size: 24px; font-family: arizonia" type="text" name="name" maxlength="50" size="30" required="true"></td>
             </tr>
             <tr>
               <td  class="feedback_form_td" valign="top"><label  style="font-size: 24px; font-family: arizonia"  for="telephone">Телефон *</label></td>
               <td  class="feedback_form_td" valign="top"><input style="font-size: 24px; font-family: arizonia"  type="text" name="telephone" maxlength="30" size="30"  required="true"></td>
             </tr>
             <tr>
-              <td class="feedback_form_td"  valign="top"><label style="font-size: 24px; font-family: arizonia"   for="comments">Комментарий *</label></td>
-              <td class="feedback_form_td" valign="top"><textarea  style="font-size: 24px; font-family: arizonia" name="comments" maxlength="1000" cols="25" rows="6" required="true"></textarea></td>
+              <td class="feedback_form_td"  valign="top"><label style="font-size: 24px; font-family: arizonia"   for="message">Комментарий *</label></td>
+              <td class="feedback_form_td" valign="top"><textarea  style="font-size: 24px; font-family: arizonia" name="message" maxlength="1000" cols="25" rows="6" required="true"></textarea></td>
             </tr>
             <tr>
               <td class="feedback_form_td" colspan="2" style="text-align:center"><input type="submit" value="Отправить"></td>

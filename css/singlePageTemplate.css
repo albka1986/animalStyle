@@ -358,6 +358,7 @@ div.desc_extra {
 }
 .feedback_form_td {
 	border-bottom: 0px;
+	border-color: aliceblue;
 }
 .table tfoot td {
 	padding-top: 30px;
@@ -607,7 +608,7 @@ div.services {
 }
 
 @media (min-width:501px) and (max-width: 1096px) {
-		.feedback {
+.feedback {
 	display: none;
 }
 .no_partner {
@@ -780,9 +781,6 @@ div.services {
 .phone-number a span img {
 	display: none;
 }
-	.feedback {
-	display: none;
-}
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -816,5 +814,4 @@ input[type=submit]:hover {
 }
 .feedback {
 	margin-top: 60px;
-	display: none;
 }
