@@ -8,7 +8,7 @@ $mail = "Name: $name\nPhone: $telephone\nMessage: $message";
 
 error_reporting( E_ALL );
 ini_set( 'display_errors', '1' );
-if ( mail( "albka1986@gmail.com", "AnimalStyle: Order", "Проверка отправки почты", "Content-type:text/html;charset=utf-8" ) ) {
+if ( mail( "albka1986@gmail.com", "AnimalStyle: Order", $mail, "Content-type:text/html;charset=utf-8" ) ) {
 	echo "Заявка отправлена. Нажмите назад, чтобы вернуться на предыдущую страницу";
 	exit;
 
